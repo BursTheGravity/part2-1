@@ -17,24 +17,26 @@ In this lab, we will develop a small utility program that can fix indentation in
 using namespace std;
 
 int main(){
+	
+	/*
+	cout<<removeLeadingSpaces("Hello world!  a")<<endl;
+	cout<<removeLeadingSpaces("       int x = 1;  !")<<endl;
+	
+	cout<<countChar("}ad }dskdak kdkd!23232 }", '}')<<endl;
 
-//cout<<removeLeadingSpaces("Hello world!  a")<<endl;
-//cout<<removeLeadingSpaces("       int x = 1;  ")<<endl;
+	string apple="} e1e } dasds }";
 
-//cout<<countChar("}ad }dskdak kdkd!23232 }", '}' })<<endl;
+	char bracket = '}';
 
-string apple="} e1e } dasds }";
+	if (apple[0]=='}')
+	{
+		cout<<apple[0]<<endl;
 
-char bracket = '}';
+	}
+	*/
 
-if (apple[0]=='}')
-{
-	cout<<apple[0]<<endl;
+	cout << unindent() << endl;
 
-}
-
-//cout<<unindent()<<endl;
-
-//<<bad-code.cpp
-return 0;
+	//<<bad-code.cpp
+	return 0;
 }
